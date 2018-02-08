@@ -1,4 +1,7 @@
-vendor/
+/.idea
+/.vscode
+/.vagrant
+/vendor
 node_modules/
 npm-debug.log
 
