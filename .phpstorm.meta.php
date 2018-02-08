@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-02-08 14:01:47.
+    * Generated on 2018-02-08 14:11:11.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -46,6 +46,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -178,6 +180,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -310,6 +314,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -442,6 +448,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -574,6 +582,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -706,6 +716,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,
@@ -838,6 +850,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
+        'Spatie\ImageOptimizer\OptimizerChain' => \Spatie\ImageOptimizer\OptimizerChain::class,
+        'image-optimizer' => \Spatie\ImageOptimizer\OptimizerChain::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
         'cache.store' => \Illuminate\Cache\Repository::class,

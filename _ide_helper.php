@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.5.34 on 2018-02-08 14:01:46.
+ * Generated for Laravel 5.5.34 on 2018-02-08 14:11:11.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -13012,6 +13012,74 @@ namespace Encore\Admin\Facades {
  
 }
 
+namespace Spatie\LaravelImageOptimizer\Facades { 
+
+    class ImageOptimizer {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getOptimizers()
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::getOptimizers();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addOptimizer($optimizer)
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::addOptimizer($optimizer);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function setOptimizers($optimizers)
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::setOptimizers($optimizers);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function setTimeout($timeoutInSeconds)
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::setTimeout($timeoutInSeconds);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function useLogger($log)
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::useLogger($log);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function optimize($pathToImage, $pathToOutput = null)
+        {
+            return \Spatie\ImageOptimizer\OptimizerChain::optimize($pathToImage, $pathToOutput);
+        }
+         
+    }
+ 
+}
+
 
 namespace  { 
 
@@ -15139,6 +15207,8 @@ namespace  {
     class Debugbar extends \Barryvdh\Debugbar\Facade {}
 
     class Admin extends \Encore\Admin\Facades\Admin {}
+
+    class ImageOptimizer extends \Spatie\LaravelImageOptimizer\Facades\ImageOptimizer {}
  
 }
 

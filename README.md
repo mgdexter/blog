@@ -11,6 +11,7 @@
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
+- [Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
 
 ### Geliştiriciler
 - [Ümit Sevim](https://github.com/tstechnik)
