@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-02-08 14:11:11.
+    * Generated on 2018-02-08 21:08:09.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -141,6 +141,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
         '' => '@',
@@ -275,6 +279,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
         '' => '@',
@@ -409,6 +417,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\App::make(0), map([
         '' => '@',
@@ -543,6 +555,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\App::makeWith(0), map([
         '' => '@',
@@ -677,6 +693,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\app(0), map([
         '' => '@',
@@ -811,6 +831,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
     override(\resolve(0), map([
         '' => '@',
@@ -945,6 +969,10 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'Arcanedev\SeoHelper\Contracts\SeoMeta' => \Arcanedev\SeoHelper\SeoMeta::class,
+        'Arcanedev\SeoHelper\Contracts\SeoOpenGraph' => \Arcanedev\SeoHelper\SeoOpenGraph::class,
+        'Arcanedev\SeoHelper\Contracts\SeoTwitter' => \Arcanedev\SeoHelper\SeoTwitter::class,
+        'Arcanedev\SeoHelper\Contracts\SeoHelper' => \Arcanedev\SeoHelper\SeoHelper::class,
     ]));
 
     override(\Illuminate\Support\Arr::add(0), type(0));

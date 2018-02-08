@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.5.34 on 2018-02-08 14:11:11.
+ * Generated for Laravel 5.5.34 on 2018-02-08 21:08:07.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -13080,6 +13080,245 @@ namespace Spatie\LaravelImageOptimizer\Facades {
  
 }
 
+namespace Arcanedev\SeoHelper\Facades { 
+
+    class SeoHelper {
+        
+        /**
+         * Get SeoMeta instance.
+         *
+         * @return \Arcanedev\SeoHelper\Contracts\SeoMeta 
+         * @static 
+         */ 
+        public static function meta()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::meta();
+        }
+        
+        /**
+         * Set SeoMeta instance.
+         *
+         * @param \Arcanedev\SeoHelper\Contracts\SeoMeta $seoMeta
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setSeoMeta($seoMeta)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setSeoMeta($seoMeta);
+        }
+        
+        /**
+         * Get SeoOpenGraph instance.
+         *
+         * @return \Arcanedev\SeoHelper\Contracts\SeoOpenGraph 
+         * @static 
+         */ 
+        public static function openGraph()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::openGraph();
+        }
+        
+        /**
+         * Get SeoOpenGraph instance (alias).
+         *
+         * @see openGraph()
+         * @return \Arcanedev\SeoHelper\Contracts\SeoOpenGraph 
+         * @static 
+         */ 
+        public static function og()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::og();
+        }
+        
+        /**
+         * Get SeoOpenGraph instance.
+         *
+         * @param \Arcanedev\SeoHelper\Contracts\SeoOpenGraph $seoOpenGraph
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setSeoOpenGraph($seoOpenGraph)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setSeoOpenGraph($seoOpenGraph);
+        }
+        
+        /**
+         * Get SeoTwitter instance.
+         *
+         * @return \Arcanedev\SeoHelper\Contracts\SeoTwitter 
+         * @static 
+         */ 
+        public static function twitter()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::twitter();
+        }
+        
+        /**
+         * Set SeoTwitter instance.
+         *
+         * @param \Arcanedev\SeoHelper\Contracts\SeoTwitter $seoTwitter
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setSeoTwitter($seoTwitter)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setSeoTwitter($seoTwitter);
+        }
+        
+        /**
+         * Set title.
+         *
+         * @param string $title
+         * @param string|null $siteName
+         * @param string|null $separator
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setTitle($title, $siteName = null, $separator = null)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setTitle($title, $siteName, $separator);
+        }
+        
+        /**
+         * Set the site name.
+         *
+         * @param string $siteName
+         * @return self 
+         * @static 
+         */ 
+        public static function setSiteName($siteName)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setSiteName($siteName);
+        }
+        
+        /**
+         * Hide the site name.
+         *
+         * @return self 
+         * @static 
+         */ 
+        public static function hideSiteName()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::hideSiteName();
+        }
+        
+        /**
+         * Show the site name.
+         *
+         * @return self 
+         * @static 
+         */ 
+        public static function showSiteName()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::showSiteName();
+        }
+        
+        /**
+         * Set description.
+         *
+         * @param string $description
+         * @return \Arcanedev\SeoHelper\Contracts\SeoHelper 
+         * @static 
+         */ 
+        public static function setDescription($description)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setDescription($description);
+        }
+        
+        /**
+         * Set keywords.
+         *
+         * @param array|string $keywords
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setKeywords($keywords)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setKeywords($keywords);
+        }
+        
+        /**
+         * Set Image.
+         *
+         * @param string $imageUrl
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function setImage($imageUrl)
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::setImage($imageUrl);
+        }
+        
+        /**
+         * Render all seo tags.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function render()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::render();
+        }
+        
+        /**
+         * Render all seo tags with HtmlString object.
+         *
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function renderHtml()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::renderHtml();
+        }
+        
+        /**
+         * Enable the OpenGraph.
+         *
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function enableOpenGraph()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::enableOpenGraph();
+        }
+        
+        /**
+         * Disable the OpenGraph.
+         *
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function disableOpenGraph()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::disableOpenGraph();
+        }
+        
+        /**
+         * Enable the Twitter Card.
+         *
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function enableTwitter()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::enableTwitter();
+        }
+        
+        /**
+         * Disable the Twitter Card.
+         *
+         * @return \Arcanedev\SeoHelper\SeoHelper 
+         * @static 
+         */ 
+        public static function disableTwitter()
+        {
+            return \Arcanedev\SeoHelper\SeoHelper::disableTwitter();
+        }
+         
+    }
+ 
+}
+
 
 namespace  { 
 
@@ -15209,6 +15448,8 @@ namespace  {
     class Admin extends \Encore\Admin\Facades\Admin {}
 
     class ImageOptimizer extends \Spatie\LaravelImageOptimizer\Facades\ImageOptimizer {}
+
+    class SeoHelper extends \Arcanedev\SeoHelper\Facades\SeoHelper {}
  
 }
 
