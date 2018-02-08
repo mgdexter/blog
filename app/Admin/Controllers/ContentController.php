@@ -74,11 +74,13 @@ class ContentController extends Controller
     {
         return Admin::grid(ContentModel::class, function (Grid $grid) {
 
+            $grid->model()->where('type', 'content');
+
             $grid->id('ID')->sortable();
-            $grid->title('Başlık');
+            $grid->title('Başlık')->sortable();
             $grid->slug('Url');
-            $grid->created_at('Eklenme Tarihi');
-            $grid->updated_at('Güncellenme Tarihi');
+            $grid->created_at('Eklenme Tarihi')->sortable();
+            $grid->updated_at('Güncellenme Tarihi')->sortable();
 
             $grid->model()->orderBy('created_at', 'desc');
             $grid->disableExport();

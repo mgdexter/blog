@@ -85,7 +85,7 @@ class CategoryController extends Controller
             $grid->created_at('Eklenme Tarihi');
             $grid->updated_at('Güncellenme Tarihi');
 
-            $grid->model()->orderBy('created_at', 'desc');
+            $grid->model()->orderBy('name', 'asc');
             $grid->disableExport();
             $grid->paginate(15);
 
