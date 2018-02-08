@@ -24,6 +24,7 @@ Route::group([
 
 
     $router->prefix('api')->group(function () use ($router) {
+        $router->get('slug', 'ApiController@makeslug');
         $router->get('category/list', 'ApiController@categories');
     });
 

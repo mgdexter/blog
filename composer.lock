@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3a585e0c861c55ae6e60aa845ba7458",
+    "content-hash": "ad3da6913d52c358ca6062ce8e77605e",
     "packages": [
         {
             "name": "arcanedev/seo-helper",
@@ -1331,6 +1331,57 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "jaybizzle/safeurl",
+            "version": "v0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Safeurl.git",
+                "reference": "74096d5b4e5ccf2c6794c7848dac757ae0163c80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Safeurl/zipball/74096d5b4e5ccf2c6794c7848dac757ae0163c80",
+                "reference": "74096d5b4e5ccf2c6794c7848dac757ae0163c80",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\": "src/Jaybizzle"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "mbeech@mark-beech.co.uk"
+                }
+            ],
+            "description": "A Laravel package to create safe, SEO friendly urls",
+            "homepage": "http://github.com/JayBizzle/Safeurl",
+            "keywords": [
+                "friendly_url",
+                "laravel",
+                "safe",
+                "seo",
+                "slug",
+                "string",
+                "url"
+            ],
+            "time": "2017-05-17T08:31:40+00:00"
         },
         {
             "name": "laravel-admin-ext/config",

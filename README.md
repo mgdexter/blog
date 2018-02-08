@@ -14,6 +14,7 @@
 - [Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
 - [arcanedev/seo-helper](https://github.com/ARCANEDEV/SEO-Helper)
 - [s-ichikawa/laravel-sendgrid-driver](https://github.com/s-ichikawa/laravel-sendgrid-driver)
+- [jaybizzle/safeurl](https://github.com/JayBizzle/Safeurl)
 
 
 ### Kullanılan Editörler

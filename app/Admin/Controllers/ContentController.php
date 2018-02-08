@@ -102,8 +102,10 @@ class ContentController extends Controller
     {
         return Admin::form(ContentModel::class, function (Form $form) {
 
+            Admin::script($this->script());
 
             $form->text('title', 'Başlık')->rules('required|min:3|max:300')->setWidth(5);
+            $form->text('slug', 'Url')->rules('required|min:3|max:300')->setWidth(5);
             $form->summernote('description','Açıklama')->rules('required|min:10')->setWidth(10);
 
 
@@ -112,4 +114,17 @@ class ContentController extends Controller
             $form->hidden('updated_at');
         });
     }
+
+    protected function script()
+    {
+        return <<<SCRIPT
+        $("#title").change(function () {
+            var name = $('#title').val();
+            $.get("/admin/api/slug/?title=" + name).done(function (data) {
+                $('#slug').val(data);
+            });
+        });
+SCRIPT;
+    }
+
 }

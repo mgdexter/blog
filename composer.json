@@ -10,6 +10,7 @@
         "doctrine/dbal": "^2.6",
         "encore/laravel-admin": "1.5.*",
         "fideloper/proxy": "~3.3",
+        "jaybizzle/safeurl": "0.2.*",
         "laravel-admin-ext/config": "^1.0",
         "laravel-admin-ext/helpers": "^1.0",
         "laravel-admin-ext/media-manager": "^1.0",
