@@ -1,4 +1,9 @@
 <?php
+/**
+ * Description:
+ * User: Mustafa Genç
+ * Date: 09/02/2018 01:19
+ */
 
 namespace App\Admin\Controllers;
 
@@ -11,7 +16,7 @@ use Encore\Admin\Layout\Content;
 use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\ModelForm;
 
-class ContentController extends Controller
+class PageController extends Controller
 {
     use ModelForm;
 
@@ -24,8 +29,8 @@ class ContentController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('Yazılar');
-            $content->description('Liste');
+            $content->header('header');
+            $content->description('description');
 
             $content->body($this->grid());
         });
@@ -41,8 +46,8 @@ class ContentController extends Controller
     {
         return Admin::content(function (Content $content) use ($id) {
 
-            $content->header('Yazılar');
-            $content->description('Düzenle');
+            $content->header('header');
+            $content->description('description');
 
             $content->body($this->form()->edit($id));
         });
@@ -57,8 +62,8 @@ class ContentController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('Yazılar');
-            $content->description('Ekle');
+            $content->header('header');
+            $content->description('description');
 
             $content->body($this->form());
         });
@@ -74,22 +79,9 @@ class ContentController extends Controller
         return Admin::grid(ContentModel::class, function (Grid $grid) {
 
             $grid->id('ID')->sortable();
-            $grid->title('Başlık');
-            $grid->slug('Url');
-            $grid->created_at('Eklenme Tarihi');
-            $grid->updated_at('Güncellenme Tarihi');
 
-            $grid->model()->orderBy('created_at', 'desc');
-            $grid->disableExport();
-            $grid->paginate(15);
-
-            $grid->filter(function ($filter) {
-                $filter->disableIdFilter();
-
-                $filter->where(function ($query) {
-                    $query->where('title', 'like', "%{$this->input}%");
-                }, 'Başlık');
-            });
+            $grid->created_at();
+            $grid->updated_at();
         });
     }
 
@@ -102,14 +94,10 @@ class ContentController extends Controller
     {
         return Admin::form(ContentModel::class, function (Form $form) {
 
+            $form->display('id', 'ID');
 
-            $form->text('title', 'Başlık')->rules('required|min:3|max:300')->setWidth(5);
-            $form->summernote('description','Açıklama')->rules('required|min:10')->setWidth(10);
-
-
-            $form->hidden('id');
-            $form->hidden('created_at');
-            $form->hidden('updated_at');
+            $form->display('created_at', 'Created At');
+            $form->display('updated_at', 'Updated At');
         });
     }
 }

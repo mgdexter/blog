@@ -5,9 +5,9 @@ use Illuminate\Routing\Router;
 Admin::registerAuthRoutes();
 
 Route::group([
-    'prefix'        => config('admin.route.prefix'),
-    'namespace'     => config('admin.route.namespace'),
-    'middleware'    => config('admin.route.middleware'),
+    'prefix' => config('admin.route.prefix'),
+    'namespace' => config('admin.route.namespace'),
+    'middleware' => config('admin.route.middleware'),
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index');
@@ -18,6 +18,9 @@ Route::group([
     });
 
     $router->resource('/categories', 'CategoryController');
+    $router->resource('/contents', 'ContentController');
+    $router->resource('/pages', 'PageController');
+    $router->resource('/comments', 'CommentController');
 
 
     $router->prefix('api')->group(function () use ($router) {
