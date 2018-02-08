@@ -13,6 +13,7 @@
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
 - [Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
 - [arcanedev/seo-helper](https://github.com/ARCANEDEV/SEO-Helper)
+- [composer require s-ichikawa/laravel-sendgrid-driver](https://github.com/s-ichikawa/laravel-sendgrid-driver)
 
 ### Geliştiriciler
 - [Ümit Sevim](https://github.com/tstechnik)
