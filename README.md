@@ -1,5 +1,5 @@
 ### Geliştirilme Platformu
-- [Laravel 5.6](https://laravel.com/docs/5.6/)  - PHP Framework For Web Artisans
+- [Laravel 5.5](https://laravel.com/docs/5.5/)  - PHP Framework For Web Artisans
 
 ### Kullanılan Paketler
 - [Laravel Admin](http://laravel-admin.org)
