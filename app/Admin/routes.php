@@ -11,5 +11,17 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index');
+    $router->get('/clear-cache', function () {
+        Cache::flush();
+        admin_toastr('Cache temizlendi.');
+        return redirect()->back();
+    });
+
+    $router->resource('/categories', 'CategoryController');
+
+
+    $router->prefix('api')->group(function () use ($router) {
+        $router->get('category/list', 'ApiController@categories');
+    });
 
 });
