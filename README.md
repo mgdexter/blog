@@ -10,6 +10,7 @@
     - [laravel-admin-extensions/reporter](https://github.com/laravel-admin-extensions/reporter)
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
+- [Laravel Analytics](https://github.com/spatie/laravel-analytics)
 
 ### Geliştiriciler
 - [Ümit Sevim](https://github.com/tstechnik)
