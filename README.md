@@ -22,7 +22,7 @@
 - [Summernote](https://summernote.org/)
 
 ### Ekran Görüntüleri
-![Index](https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png | width=100)
+![Index](https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png|width=100)
 
 
 
