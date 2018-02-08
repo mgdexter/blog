@@ -2,6 +2,7 @@
 
 namespace App\Admin\Controllers;
 
+use App\Models\CategoryModel;
 use App\Models\ContentModel;
 
 use Encore\Admin\Form;
@@ -104,11 +105,32 @@ class ContentController extends Controller
 
             Admin::script($this->script());
 
+            $form->multipleSelect('category')->options(CategoryModel::all()->pluck('name', 'id'));
+
             $form->text('title', 'Başlık')->rules('required|min:3|max:300')->setWidth(5);
             $form->text('slug', 'Url')->rules('required|min:3|max:300')->setWidth(5);
-            $form->summernote('description','Açıklama')->rules('required|min:10')->setWidth(10);
+            $form->summernote('description', 'Açıklama')->rules('required|min:10')->setWidth(10);
 
+            $form->divider();
 
+            $form->text('meta_title', 'Meta Başlık')->rules('required|min:3|max:300')->setWidth(10);
+            $form->textarea('meta_description', 'Meta Açıklama')->rules('required|min:3|max:300')->rows(2)->setWidth(10);
+            $form->text('meta_keywords', 'Meta Keywords')->rules('required|min:3|max:300')->setWidth(10);
+
+            $form->divider();
+            $form->image('image', 'Ana Fotoğraf')->setWidth(5);
+
+            $form->divider();
+
+            $states = [
+                'on' => ['value' => 1, 'text' => 'Açık', 'color' => 'success'],
+                'off' => ['value' => 0, 'text' => 'Kapalı', 'color' => 'danger'],
+            ];
+
+            $form->switch('comment', 'Yorumlar')->states($states);
+            $form->switch('status', 'Durum')->states($states);
+
+            $form->hidden('type')->value('content');
             $form->hidden('id');
             $form->hidden('created_at');
             $form->hidden('updated_at');
@@ -118,6 +140,7 @@ class ContentController extends Controller
     protected function script()
     {
         return <<<SCRIPT
+        $("#description").summernote({ height: 350 });
         $("#title").change(function () {
             var name = $('#title').val();
             $.get("/admin/api/slug/?title=" + name).done(function (data) {
