@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
+use Encore\Admin\Config\Config;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,6 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Config::load();
         Schema::defaultStringLength(191); //Not: Migrate sırasında oluşan hatanın çözümü
         \URL::forceScheme('https'); //Not: https yönlendirmeye yarıyor.
     }

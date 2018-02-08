@@ -4,6 +4,7 @@
 ### Kullanılan Paketler
 - [Laravel Admin](http://laravel-admin.org)
     - [laravel-admin-extensions/helpers](https://github.com/laravel-admin-extensions/helpers)
+    - [laravel-admin-extensions/config](https://github.com/laravel-admin-extensions/config)
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
 
