@@ -15,6 +15,12 @@
 - [arcanedev/seo-helper](https://github.com/ARCANEDEV/SEO-Helper)
 - [s-ichikawa/laravel-sendgrid-driver](https://github.com/s-ichikawa/laravel-sendgrid-driver)
 
+
+### Kullanılan Editörler
+- [TinyMCE](https://www.tinymce.com)
+- [Summernote](https://summernote.org/)
+
+
 ### Geliştiriciler
 - [Ümit Sevim](https://github.com/tstechnik)
 - [Yiğithan Yiğit](https://github.com/yigithanyigit)
