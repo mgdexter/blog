@@ -1,11 +1,16 @@
 <?php
+/**
+ * Description:
+ * User: Mustafa Genç
+ * Date: 08/02/2018 16:06
+ */
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class UserModel extends Authenticatable
 {
     use Notifiable;
 
