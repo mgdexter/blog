@@ -7,6 +7,7 @@
     - [laravel-admin-extensions/config](https://github.com/laravel-admin-extensions/config)
     - [laravel-admin-extensions/media-manager](https://github.com/laravel-admin-extensions/media-manager)
     - [ composer require laravel-admin-ext/scheduling](https://github.com/laravel-admin-extensions/scheduling)
+    - [laravel-admin-extensions/reporter](https://github.com/laravel-admin-extensions/reporter)
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
 
