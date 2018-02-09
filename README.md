@@ -22,9 +22,9 @@
 - [Summernote](https://summernote.org/)
 
 ### Ekran Görüntüleri
-<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png" height="150"></a> 
-<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazilar.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazilar.png" height="150"></a> 
-<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazi-ekle.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazi-ekle.png" height="150"></a>
+<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/index.png" height="75"></a> 
+<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazilar.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazilar.png" height="75"></a> 
+<a href="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazi-ekle.png"><img src="https://raw.githubusercontent.com/mustafagenc/blog/master/storage/screenshots/yazi-ekle.png" height="75"></a>
 
 
 
